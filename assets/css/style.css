@@ -128,3 +128,14 @@ body{
     right:5px;
     font-size:14px;
 }
+
+.btn-custom{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border:none;
+    height: 40px;
+    width:80px;
+}
+.btn-custom:hover{
+    opacity: 0.5;
+}
