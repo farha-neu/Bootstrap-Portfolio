@@ -1,6 +1,4 @@
 html{
-    padding: 0;
-    margin: 0;
     position: relative;
     min-height: 100%;
 }
@@ -10,8 +8,6 @@ body{
     background-image: url("../images/bg.png");
     color: #777777;
     line-height: 200%;
-    padding: 0;
-    margin: 0;
     width: 100%;
     height: 100%;  
     text-decoration: none;
@@ -30,7 +26,6 @@ body{
     background: #4aaaa5;
     color: #ffffff;
     padding:25px 25px;
-    /* margin-left: -15px; */
 }
 
 .navbar-light .navbar-brand:hover{
@@ -43,6 +38,7 @@ body{
     padding-left: 10px;
 }
 
+/* Styling for About Me, Contact, Portfolio Headers */
 .heading-name{
    color: #4aaaa5;
    padding-bottom:0.5em;
@@ -51,7 +47,7 @@ body{
 
 .navbar-light .navbar-brand, .heading-name{
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 2em;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -99,7 +95,7 @@ body{
     border-top: 8px solid #4aaaa5;
     bottom: 0;
     width: 100%;
-  }
+}
 
 .sidebar a:hover{
     opacity: 0.5;
@@ -116,7 +112,7 @@ body{
     opacity: 0.9;
 }
 
-
+/* Portfolio Project Name */
 .project-info{
     position: absolute;
     background-color: #4aaaa5;
@@ -136,6 +132,7 @@ body{
     height: 40px;
     width:80px;
 }
+
 .btn-custom:hover{
     opacity: 0.5;
 }
